@@ -1,6 +1,3 @@
 [submodule "Packages/VRUtils"]
 	path = Packages/VRUtils
 	url = git@github.com:YuriAICruz/Unity-VR-Utils.git
-[submodule "Packages/Utils"]
-	path = Packages/Utils
-	url = git@github.com:YuriAICruz/Unity-Utils.git
