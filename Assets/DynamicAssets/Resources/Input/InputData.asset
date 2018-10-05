@@ -11,4 +11,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19a373cf00dc6ad46af7ede24d48d004, type: 3}
   m_Name: InputData
   m_EditorClassIdentifier: 
-  Inputs: []
+  Inputs:
+  - hint: L_Grab
+    Combo:
+    - input: 128
+      betweenMaxTime: 1.1999999
+      betweenMinTime: 0
+      down: 1
+      hold: 0
+      holdTime: 0
+    Id: 0
+  - hint: L_UnGrab
+    Combo:
+    - input: 128
+      betweenMaxTime: 1.2
+      betweenMinTime: 0
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 1
+  - hint: R_Grab
+    Combo:
+    - input: 32
+      betweenMaxTime: 1.2
+      betweenMinTime: 0
+      down: 1
+      hold: 0
+      holdTime: 0
+    Id: 2
+  - hint: R_UnGrab
+    Combo:
+    - input: 32
+      betweenMaxTime: 1.1999999
+      betweenMinTime: 0
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 3
+  - hint: Trigger_L
+    Combo:
+    - input: 256
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 1
+      hold: 0
+      holdTime: 0
+    Id: 4
+  - hint: Trigger_L_Release
+    Combo:
+    - input: 256
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 5
+  - hint: Trigger_R
+    Combo:
+    - input: 64
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 1
+      hold: 0
+      holdTime: 0
+    Id: 6
+  - hint: Trigger_R_Release
+    Combo:
+    - input: 16448
+      betweenMaxTime: 1.2
+      betweenMinTime: 0.2
+      down: 0
+      hold: 0
+      holdTime: 0
+    Id: 7
