@@ -1,0 +1,11 @@
+{
+    "name": "VRDemo",
+    "references": [
+        "Graphene.VRUtils",
+        "Graphene.InputManager"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
